@@ -5,10 +5,19 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const fName = "Jay";
+const lName = "Park";
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <div>
+    <h1>Hello, {`${fName} ${lName}`}!</h1>
+    <ul>
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
