@@ -6,17 +6,12 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const fName = "Jay";
-const lName = "Park";
+const img = "https://picsum.photos/200";
 
 root.render(
   <div>
-    <h1>Hello, {`${fName} ${lName}`}!</h1>
-    <ul>
-      <li>One</li>
-      <li>Two</li>
-      <li>Three</li>
-    </ul>
+    <h1 className="heading">Cute Kittens</h1>
+    <img src={img}></img>
   </div>
 );
 

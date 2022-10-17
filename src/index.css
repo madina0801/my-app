@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.heading {
+  color: rebeccapurple;
+}
+
+.cat-img {
+  height: 100px;
+}
